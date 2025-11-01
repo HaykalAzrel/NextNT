@@ -13,6 +13,12 @@ const FormTambah = () => {
                     className="block text-gray-600 text-sm font-bold mb-2">
                         Nama barang
                     </label>
+                    <div>
+                        <input
+                        type="text" 
+                        autoComplete="off" 
+                        className="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 focus:outline-none" />
+                    </div>
                 </div>
             </form>
         </div>
